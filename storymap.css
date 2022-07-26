@@ -24,7 +24,7 @@ p {
 }
 
 .vco-slide .vco-slide-calltoaction .vco-slide-calltoaction-button-text {
- background: #a6433f;
+ background: #944A47;
  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -75,23 +75,47 @@ p {
   color: #7a756a;
 }
 
+.vco-storymap p u {
+ font-size: 10px;
+ text-decoration: none;
+}
+
+.vco-storymap p a {
+ text-shadow: none;
+ color: #7a756a;
+}
+
+.vco-storymap p a:hover, .vco-storymap p a:focus {
+ color: #944A47;
+}
+
 .vco-map .vco-mapmarker {
- color: #fff;
+ color: #944A47;
+ background: #fff;
 }
 
 .vco-map .vco-mapmarker-active {
- color: #a6433f;
+ color: #fff;
+ background: #944A47;
 }
-
 
 .vco-map .vco-mapmarker, .vco-map .vco-mapmarker-active {
  font-family: 'Material Icons';
+ text-align: center;
+}
+
+.vco-map .vco-mapmarker, .vco-map .vco-mapmarker-active {
+ width: 36px !important;
+ height: 36px !important;
+ border-radius: 50%;
+ box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15)
 }
 
 .vco-map .vco-mapmarker:before, .vco-map .vco-mapmarker-active:before {
  content: "\e0c8";
- font-size: 58px;
- text-shadow: 1px 2px #595246;
+ font-size: 24px;
+ line-height: 36px;
+ text-shadow: none;
 }
 
 .vco-map .vco-mapmarker-icon:after {
@@ -103,7 +127,7 @@ p {
 }
 
 .vco-layout-landscape .vco-storyslider .vco-slidenav-next .vco-slidenav-icon:before, .vco-layout-landscape .vco-storyslider .vco-slidenav-previous .vco-slidenav-icon:before {
- background-color: #a6433f;
+ background-color: #944A47;
  padding: 15px;
  border: none;
  box-shadow: 0 10px 15px 0 rgba(0,0,0,0.15); 
@@ -134,3 +158,36 @@ p {
  transition: all 0.3s ease;
 }
 
+.vco-map .leaflet-container .leaflet-top .leaflet-control-minimap {
+  margin-top: 25px;
+}
+
+.vco-map .leaflet-container .leaflet-control-minimap {
+  box-shadow: 0 10px 15px 0 rgba(0,0,0,0.15);
+  border-radius: 7px;
+}
+
+.vco-media .vco-media-content-container .vco-media-content img, .vco-media .vco-media-content-container .vco-media-content embed, .vco-media .vco-media-content-container .vco-media-content object, .vco-media .vco-media-content-container .vco-media-content video {
+max-width: 300px;
+margin-top: 30px;
+}
+
+h2.vco-headline {
+margin-bottom: 20px;
+}
+
+.vco-storymap h2 {
+ font-size: 30px !important;
+}
+
+.vco-storymap .vco-caption, .vco-storymap .vco-credit {
+font-family: 'Poppins', Helvetica, Arial, sans-serif !important;
+}
+
+.vco-storymap p {
+font-size: 14px !important;
+}
+
+.vco-map .leaflet-container .leaflet-control-attribution a.vco-knightlab-brand {
+ margin-left: 12px;
+}
