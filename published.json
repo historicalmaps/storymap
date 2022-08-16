@@ -72,7 +72,7 @@
         "media": {
           "caption": "",
           "credit": "",
-          "url": "https://raw.githubusercontent.com/gracemagy/storymap/Imagined-geographies/assets/images/Malay-Annals.jpg"
+          "url": "https://raw.githubusercontent.com/historicalmaps/storymap/main/assets/images/Malay-Annals.jpg"
         },
         "text": {
           "headline": "...in the Malay Annals",
@@ -108,7 +108,7 @@
         "media": {
           "caption": "",
           "credit": "",
-          "url": "https://raw.githubusercontent.com/gracemagy/storymap/Imagined-geographies/assets/images/nutmeg.jpg"
+          "url": "https://github.com/historicalmaps/storymap/raw/main/assets/images/nutmeg.jpg"
         },
         "text": {
           "headline": "",
@@ -144,7 +144,7 @@
         "media": {
           "caption": "",
           "credit": "",
-          "url": "https://raw.githubusercontent.com/gracemagy/storymap/Imagined-geographies/assets/images/Sea-monsters-real-and-imagined.jpg"
+          "url": "https://raw.githubusercontent.com/historicalmaps/storymap/main/assets/images/Sea-monsters-real-and-imagined.jpg"
         },
         "text": {
           "headline": "The Two Tailed Mermaids",
@@ -155,7 +155,7 @@
     "zoomify": {
       "attribution": "",
       "height": 3788,
-      "path": "https://gracemagy.github.io/storymap/",
+      "path": "https://historicalmaps.github.io/storymap/",
       "width": 5000
     }
   }
