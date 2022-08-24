@@ -176,6 +176,10 @@ h2.vco-headline {
 margin-bottom: 20px;
 }
 
+.vco-text h2.vco-headline span {
+font-style: italic;
+}
+
 .vco-storymap h2 {
  font-size: 30px !important;
 }
